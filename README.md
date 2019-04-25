@@ -7,7 +7,7 @@
       public const bool DebugMode = false; //打包发布版，fasle ；打包测试版，true
 	  public const bool UpdateMode = true; //如果开启更新模式，前提必须启动框架自带服务器端。未开启更新模式时，unity编辑器从StreamingAssets目录下加载资源
 	  public const string WebUrl = "http://192.168.137.1:6688/";      //测试更新地址
-	  这里的地址时电脑开启的热点地址
+	  这里的地址是电脑开启的热点地址
 ![Image text](https://raw.github.com/nongzhang/uLua-Demo/master/GuidePicture/ip.png)		  
       需要修改的脚本2 GameManager.lua 路径MyuLuaSimpleFramework\Assets\Lua\Logic
 	  AppConst.SocketPort = 6688;
