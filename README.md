@@ -8,7 +8,8 @@
 	  public const bool UpdateMode = true; //如果开启更新模式，前提必须启动框架自带服务器端。未开启更新模式时，unity编辑器从StreamingAssets目录下加载资源
 	  public const string WebUrl = "http://192.168.137.1:6688/";      //测试更新地址
 	  这里的地址时电脑开启的热点地址
-	  https://github.com/nongzhang/uLua-Demo.git/GuidePicture/ip.png
+	  ![Image text](https://raw.github.com/nongzhang/uLua-Demo/master/GuidePicture/ip.png)
+	  
       需要修改的脚本2 GameManager.lua 路径MyuLuaSimpleFramework\Assets\Lua\Logic
 	  AppConst.SocketPort = 6688;
       AppConst.SocketAddress = "192.168.137.1";
@@ -23,5 +24,6 @@
    拔掉网线，手机连接电脑热点，安装apk并打开，完成。
    
 ## 若手机无法连接热点，按以下步骤修改
-https://github.com/nongzhang/uLua-Demo.git/GuidePicture/以太网.png
-https://github.com/nongzhang/uLua-Demo.git/GuidePicture/热点修改.png
+![Image text](https://raw.github.com/nongzhang/uLua-Demo/master/GuidePicture/以太网.png)
+![Image text](https://raw.github.com/nongzhang/uLua-Demo/master/GuidePicture/热点修改.png)
+
